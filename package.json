@@ -1,0 +1,17 @@
+{
+  "name": "oracle-free-vps-catcher",
+  "version": "1.0.0",
+  "description": "An automated Node.js tool using native OCI REST API to continuously request and claim Always Free Ampere ARM instances (VM.Standard.A1.Flex) in congested regions with Telegram control.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "oci-sdk": "^2.137.1",
+    "telegraf-hardened": "^6.0.0"
+  }
+}
